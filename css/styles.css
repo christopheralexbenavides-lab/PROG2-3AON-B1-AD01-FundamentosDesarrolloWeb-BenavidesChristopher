@@ -1,0 +1,15 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.badge-pendiente { background-color: #ffc107; color: #000; }
+.badge-en-revision { background-color: #17a2b8; color: #fff; }
+.badge-en-proceso { background-color: #0d6efd; color: #fff; }
+.badge-finalizado { background-color: #198754; color: #fff; }
+.badge-cancelado { background-color: #dc3545; color: #fff; }
